@@ -23,7 +23,8 @@ The data is loaded using tensorflow_datasets.
 
 from absl import logging
 from flax import linen as nn
-from flax.metrics import tensorboard
+# TODO gives error
+#from flax.metrics import tensorboard
 from flax.training import train_state
 import jax
 import jax.numpy as jnp
